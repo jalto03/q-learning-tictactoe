@@ -1,0 +1,9 @@
+# Python generated files
+__pycache__/
+*.pyc
+
+# Pytest generated files
+.pytest_cache/
+
+# VS Code editor settings
+.vscode/
