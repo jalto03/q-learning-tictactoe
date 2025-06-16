@@ -38,7 +38,7 @@ class TicTacToe:
                 self.winner = self.board[0, i]
                 return True
             
-        # Checks for horizontal win
+        # Checks for diagonal win
         diag1 = self.board[0, 0] + self.board[1, 1] + self.board[2, 2]
         diag2 = self.board[2, 0] + self.board[1, 1] + self.board[0, 2]
 
